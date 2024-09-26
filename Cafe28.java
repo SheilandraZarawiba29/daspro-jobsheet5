@@ -43,6 +43,8 @@ public class Cafe28 {
         case 'L':
             Totalharga += 0.4 * Totalharga;
             break;
+        default :
+            System.out.println("Size yang dipilih tidak tersedia");
     }
 
     double diskon = keanggotaan ? 0.1 : 0;
